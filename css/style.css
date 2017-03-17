@@ -8,10 +8,17 @@ body {
 }
 h2 {
     font-size:48px;
-    line-height:120%;
+    line-height:1.2;
     color:rgb(17,17,17);
     text-align:left;
 }
+p {
+    font-size:18px;
+    line-height:1.6;
+    color:rgb(68,68,68);
+}
+/************select*******************/
+
 /**************button*****************/
 button{
     border: none;

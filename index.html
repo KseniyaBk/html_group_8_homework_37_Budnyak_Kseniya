@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link href="vendor/jQueryFormStyler/jquery.formstyler.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Project-work-Kseniya</title>
@@ -13,9 +14,9 @@
 		<h2>Ресторан</h2>
 		<div class="wrap">
 			<div class="icon-block">
-				<a href="#"></a>
-				<a href="#"></a>
-				<a href="#"></a>
+				<a class="" href="#"></a>
+				<a class="" href="#"></a>
+				<a class="" href="#"></a>
 			</div>
 			<p>Два ресторанных зала на 80 посадочных мест с открытыми видам на горнолыжные склоны и лесной каток расположены на двух этажах ресторанного комплекса. Меню ресторана состоит из блюд преимущественно европейской и славянской кухни с широким выбором закусок, горячих блюд, салатов, десертов, напитков по приемлемым ценам. Свежая домашняя паста, сочный стейк с бокалом хорошего вина из нашей обширной винной карты и нежный чизкейк —что может быть вкуснее после активного отдыха?</p>
 			<div class="map">
@@ -24,12 +25,15 @@
 		</div>
 		<button>ЗАКЗАТЬ СТОЛИК</button>
 		<select name="Restaurant_Menu">
-			<option disabled>СМОТРЕТЬ МЕНЮ</option>
-			<option>Завтрак</option>
-			<option>Обед</option>
-			<option>Ужин</option>
+			<option value="v1" disabled selected>СМОТРЕТЬ МЕНЮ</option>
+			<option value="v2">Суши</option>
+			<option value="v3">Роллы</option>
+			<option value="v4">Пица</option>
 		</select>
 	</div>
-	<script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+	<script src="vendor/jquery/jquery-1.11.1.min.js"></script>
+	<script src="vendor/jQueryFormStyler/jquery.formstyler.min.js"></script>
+	<script src="vendor/jQueryFormStyler/jquery.formstyler.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
